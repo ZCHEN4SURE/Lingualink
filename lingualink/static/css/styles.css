@@ -1,0 +1,46 @@
+body {
+    background-image: url('/static/images/background.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+
+.container {
+    text-align: center;
+    padding: 50px;
+    background-color: rgba(255, 255, 255, 0.8); /* 讓容器內部有一點透明背景，提升可讀性 */
+    border-radius: 10px;
+    display: inline-block;
+    margin-top: 100px;
+}
+
+header img {
+    width: 150px;
+}
+
+h1 {
+    color: #4B0082;
+}
+
+p {
+    font-size: 18px;
+    color: #333;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4B0082;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+footer {
+    margin-top: 50px;
+    color: #777;
+}
